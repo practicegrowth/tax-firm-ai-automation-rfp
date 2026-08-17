@@ -1,6 +1,6 @@
-# tax practice AI & Automation RFP Template
+# Tax Practice AI & Automation RFP Template
 
-> Use this template to create a comprehensive Request for Proposal for AI automation vendors serving your accounting or tax practice. Customize each section to reflect your firm's specific needs, priorities, and constraints.
+> Use this template to create a comprehensive Request for Proposal for AI automation vendors serving your tax practice. Customize each section to reflect your firm's specific needs, priorities, and constraints.
 
 ---
 
@@ -22,7 +22,7 @@
 
 ## 1. Project Overview & Goals
 
-> **Note:** If you need help defining your AI roadmap before issuing this RFP, [PracticeGrowth offers strategy consultations](https://www.PracticeGrowth.tech/?utm_source=github&utm_medium=repo&utm_campaign=tax-firm-ai-automation-rfp#consulting). We can help you map your firm's workflows, identify high-impact AI opportunities, and build a phased implementation plan.
+> **Note:** If you need help defining your AI roadmap before issuing this RFP, [PracticeGrowth offers strategy consultations](https://www.practicegrowth.tech/?utm_source=github&utm_medium=repository&utm_campaign=tax-firm-ai-automation-rfp#consulting). We can help you map your firm's workflows, identify high-impact AI opportunities, and build a phased implementation plan.
 
 ### 1.1 Project Summary
 
@@ -500,7 +500,45 @@ Tax advice falls under Google's YMYL category, requiring the highest standards o
 - Data retention compliance with state tax board requirements
 - Support for firm's ethics and independence requirements
 
-### 6.6 Circular 230 Compliance (31 CFR Part 10)
+### 6.6 TCPA Compliance (Telephone Consumer Protection Act)
+
+**CRITICAL FOR AI VOICE AGENTS AND SMS:** The TCPA governs all automated calls and text messages. Violations carry statutory damages of $500–$1,500 per violation. Tax practices using AI voice agents or SMS automation MUST comply:
+
+**Prior Express Written Consent:**
+- AI systems must obtain and document prior express written consent BEFORE making automated calls or sending texts
+- Consent must be specific to the type of communication (appointment reminders vs. marketing vs. document requests)
+- Consent records must include: date, method, specific language agreed to, and phone number
+- System must support consent withdrawal (opt-out) with immediate effect
+
+**National Do Not Call Registry:**
+- AI systems must check phone numbers against the National Do Not Call Registry before making outbound calls
+- Registry must be updated within 31 days of access (FCC requirement)
+- System must maintain internal do-not-call list separate from National Registry
+- Established business relationship exception applies for existing clients (18 months after last service or 3 months after inquiry)
+
+**Call Time Restrictions:**
+- Automated calls and texts only permitted between 8:00 AM and 9:00 PM (recipient's local time)
+- System must enforce time zone detection and restrict outbound communications accordingly
+- Emergency exception: debt collection calls related to tax debt may have different rules (consult legal counsel)
+
+**AI-Specific Requirements:**
+- AI voice agents must disclose they are automated at the beginning of the call
+- AI cannot make calls to wireless numbers using autodialer without prior consent (even for existing clients)
+- SMS messages must include opt-out mechanism (e.g., "Reply STOP to unsubscribe")
+- System must maintain complete audit trail of all consent records and call/SMS logs
+- Vendor must provide TCPA compliance certification and indemnification
+
+**Tax Practice-Specific Considerations:**
+- IRS notices and tax deadline reminders may qualify as "emergency purposes" exception (consult legal counsel)
+- Document collection reminders require separate consent from appointment reminders
+- Marketing messages (tax planning offers, service promotions) require explicit marketing consent
+- International clients: different consent requirements may apply (Canada CASL, EU GDPR)
+
+**Red flag:** If your AI vendor cannot demonstrate TCPA compliance mechanisms and provide written certification, do not hire them. One violation can cost more than the entire AI implementation.
+
+---
+
+### 6.7 Circular 230 Compliance (31 CFR Part 10)
 
 IRS Circular 230 governs practice before the IRS and imposes specific obligations on all tax practitioners. AI systems must be designed to support — not circumvent — these requirements:
 
@@ -650,7 +688,7 @@ IRS Circular 230 governs practice before the IRS and imposes specific obligation
 
 ### 9.2 Accounting/Tax Domain Experience
 
-- Number of tax practice/tax firm clients: [count]
+- Number of tax practice clients: [count]
 - Size range of accounting clients: [solo to enterprise]
 - Specific experience with firms of similar size and complexity
 - Understanding of tax season workflows and peak periods
@@ -678,7 +716,7 @@ IRS Circular 230 governs practice before the IRS and imposes specific obligation
 
 ### 9.5 References
 
-*[Vendors should provide 3–5 references from tax practice/tax firms of similar size]*
+*[Vendors should provide 3–5 references from tax practices of similar size]*
 
 | Reference | Firm Name | Contact | Services Used | Implementation Date |
 |-----------|-----------|---------|---------------|---------------------|
@@ -716,7 +754,7 @@ Vendors should submit the following:
 2. **Technical Proposal** — Detailed response to each section of this RFP
 3. **Pricing Proposal** — Complete pricing breakdown per Section 8
 4. **Implementation Plan** — Phased timeline with milestones and resource requirements
-5. **Case Studies** — 2–3 examples of similar tax practice/tax firm implementations
+5. **Case Studies** — 2–3 examples of similar tax practice implementations
 6. **References** — 3–5 references from accounting/tax firm clients
 7. **Company Profile** — Background, team, financial stability, roadmap
 
@@ -773,4 +811,4 @@ All questions and submissions should be directed to:
 
 ---
 
-*This RFP template is provided by [PracticeGrowth.Tech](https://www.PracticeGrowth.tech/?utm_source=github&utm_medium=repo&utm_campaign=tax-firm-ai-automation-rfp) as a free resource for tax practices. Customize it to fit your specific needs. The template is vendor-neutral — PracticeGrowth is not listed as a vendor option, though the evaluation criteria are designed to surface vendors with the capabilities that matter most for tax practice AI adoption.*
+*This RFP template is provided by [PracticeGrowth.Tech](https://www.practicegrowth.tech/?utm_source=github&utm_medium=repository&utm_campaign=tax-firm-ai-automation-rfp) as a free resource for tax practices. Customize it to fit your specific needs. The template is vendor-neutral — PracticeGrowth is not listed as a vendor option, though the evaluation criteria are designed to surface vendors with the capabilities that matter most for tax practice AI adoption.*

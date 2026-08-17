@@ -50,18 +50,18 @@
 
 ### 1. Domain Expertise (Weight: 25%)
 
-**What we're evaluating:** Does the vendor truly understand how tax practices and tax practices operate?
+**What we're evaluating:** Does the vendor truly understand how tax practices operate?
 
 | Score | Evidence |
 |-------|----------|
-| **5** | Vendor has 10+ tax practice/tax firm clients of similar size. Demonstrates deep knowledge of tax workflows, peak season pressures, professional services regulations, and firm economics. Explicitly understands IRS Circular 230 constraints on AI-assisted tax advice and marketing. Distinguishes between credential types (EA, CPA, JD) and tailors intake/scripts accordingly. Recognizes that tax prospects are often in distress (IRS notices, audit anxiety, deadline pressure) and designs intake around empathy-first, trust-building conversations. Case studies show measurable results in tax contexts. Team includes former tax professionals. |
-| **4** | Vendor has 5–10 tax practice/tax firm clients. Understands core tax workflows and can speak intelligently about tax season challenges. Aware of Circular 230 implications for AI-generated content and client communications. Understands credential distinctions at a high level. Recognizes distress-driven buyer psychology but may not have fully operationalized it in scripts. Case studies from adjacent professional services. Some team members have tax background. |
-| **3** | Vendor has 1–5 tax practice/tax firm clients. Basic understanding of tax workflows but relies on general professional services experience. Limited awareness of Circular 230 or credential-specific practice rights. Treats prospects as standard B2B buyers rather than distressed individuals seeking tax resolution. Case studies from other industries. No tax-specific team members. |
-| **2** | Vendor has no tax practice/tax firm clients. Generic understanding of business workflows. Proposes solutions that don't account for tax-specific requirements (e.g., engagement letters, conflict checks, quality review). No awareness of Circular 230 constraints or credential distinctions. Treats all prospects identically regardless of their emotional state or urgency. |
+| **5** | Vendor has 10+ tax practice clients of similar size. Demonstrates deep knowledge of tax workflows, peak season pressures, professional services regulations, and firm economics. Explicitly understands IRS Circular 230 constraints on AI-assisted tax advice and marketing. Distinguishes between credential types (EA, CPA, JD) and tailors intake/scripts accordingly. Recognizes that tax prospects are often in distress (IRS notices, audit anxiety, deadline pressure) and designs intake around empathy-first, trust-building conversations. Case studies show measurable results in tax contexts. Team includes former tax professionals. |
+| **4** | Vendor has 5–10 tax practice clients. Understands core tax workflows and can speak intelligently about tax season challenges. Aware of Circular 230 implications for AI-generated content and client communications. Understands credential distinctions at a high level. Recognizes distress-driven buyer psychology but may not have fully operationalized it in scripts. Case studies from adjacent professional services. Some team members have tax background. |
+| **3** | Vendor has 1–5 tax practice clients. Basic understanding of tax workflows but relies on general professional services experience. Limited awareness of Circular 230 or credential-specific practice rights. Treats prospects as standard B2B buyers rather than distressed individuals seeking tax resolution. Case studies from other industries. No tax-specific team members. |
+| **2** | Vendor has no tax practice clients. Generic understanding of business workflows. Proposes solutions that don't account for tax-specific requirements (e.g., engagement letters, conflict checks, quality review). No awareness of Circular 230 constraints or credential distinctions. Treats all prospects identically regardless of their emotional state or urgency. |
 | **1** | Vendor has no relevant industry experience. Proposes generic AI solutions without understanding of professional services constraints, compliance requirements, or seasonal workflows. No knowledge of Circular 230, credential types, or the distress-driven nature of tax client acquisition. |
 
 **Key evaluation questions:**
-- How many tax practice/tax firm clients does the vendor currently serve?
+- How many tax practice clients does the vendor currently serve?
 - Can they describe the typical tax season workflow and where AI fits?
 - Do they understand engagement letters, conflict checks, and quality review processes?
 - Have they worked with firms of similar size and complexity?
@@ -146,17 +146,17 @@
 
 ---
 
-### 4. Compliance & Security (Weight: 15%)
+### 5. Compliance & Security (Weight: 15%)
 
 **What we're evaluating:** Does the vendor meet the security and compliance requirements for handling sensitive client data in a tax practice, including IRS Circular 230 constraints on AI-assisted tax advice and marketing?
 
 | Score | Evidence |
 |-------|----------|
-| **5** | Current SOC 2 Type II report available. AES-256 encryption at rest, TLS 1.3 in transit. MFA and SSO supported. Comprehensive audit trails with tamper detection. Documented incident response plan with <24hr notification. Understands IRS Publication 4557 requirements. Explicitly addresses IRS Circular 230 constraints — understands that AI cannot provide tax advice without practitioner review, that marketing claims must not be misleading, and that credential-specific practice rights (EA/CPA/JD) must be respected in all client-facing communications. Customer-managed encryption keys available. |
-| **4** | SOC 2 Type II available. Strong encryption (AES-256, TLS 1.2+). MFA supported. Good audit trails. Documented incident response with <48hr notification. Basic understanding of tax compliance requirements including awareness of Circular 230 implications for AI-generated content. |
-| **3** | SOC 2 Type I or SOC 3 available. Adequate encryption. MFA available. Basic audit trails. Incident response plan exists but timeline is unclear. Limited understanding of tax-specific compliance. Vague awareness of Circular 230 but no operational safeguards. |
-| **2** | No SOC 2 report. Encryption meets minimum standards. MFA is basic or limited. Audit trails are incomplete. Incident response plan is informal or undocumented. No awareness of tax compliance requirements or Circular 230 constraints. |
-| **1** | No security certifications. Weak encryption. No MFA. No audit trails. No incident response plan. No understanding of professional services compliance requirements. No knowledge of IRS Circular 230 or credential handling. |
+| **5** | Current SOC 2 Type II report available. AES-256 encryption at rest, TLS 1.3 in transit. MFA and SSO supported. Comprehensive audit trails with tamper detection. Documented incident response plan with <24hr notification. Understands IRS Publication 4557 requirements. Explicitly addresses IRS Circular 230 constraints — understands that AI cannot provide tax advice without practitioner review, that marketing claims must not be misleading, and that credential-specific practice rights (EA/CPA/JD) must be respected in all client-facing communications. TCPA compliance: prior consent management, DNC registry checks, call time restrictions, AI disclosure requirements. Customer-managed encryption keys available. |
+| **4** | SOC 2 Type II available. Strong encryption (AES-256, TLS 1.2+). MFA supported. Good audit trails. Documented incident response with <48hr notification. Basic understanding of tax compliance requirements including awareness of Circular 230 implications for AI-generated content. TCPA compliance mechanisms in place but may lack full automation. |
+| **3** | SOC 2 Type I or SOC 3 available. Adequate encryption. MFA available. Basic audit trails. Incident response plan exists but timeline is unclear. Limited understanding of tax-specific compliance. Vague awareness of Circular 230 but no operational safeguards. TCPA compliance is manual or incomplete. |
+| **2** | No SOC 2 report. Encryption meets minimum standards. MFA is basic or limited. Audit trails are incomplete. Incident response plan is informal or undocumented. No awareness of tax compliance requirements or Circular 230 constraints. No TCPA compliance mechanisms. |
+| **1** | No security certifications. Weak encryption. No MFA. No audit trails. No incident response plan. No understanding of professional services compliance requirements. No knowledge of IRS Circular 230 or credential handling. No TCPA compliance. |
 
 **Key evaluation questions:**
 - Is a current SOC 2 Type II report available for review?
@@ -168,13 +168,14 @@
 - Does the vendor understand IRS Publication 4557?
 - Does the vendor understand IRS Circular 230 and how it constrains AI-assisted tax advice and marketing? Specifically: Can the AI generate tax advice without practitioner review? How does the vendor ensure marketing claims comply with Circular 230's prohibition on misleading statements?
 - How does the vendor handle credential distinctions (EA, CPA, JD) in client-facing communications? Are scripts and marketing materials reviewed to ensure they don't overstate practice rights or make unauthorized claims?
+- **TCPA compliance:** Does the system obtain and document prior express written consent before making automated calls or sending texts? How does it check the National Do Not Call Registry? Does it enforce 8 AM – 9 PM call time restrictions? Does it require AI voice agents to disclose they are automated? Can you provide written TCPA certification and indemnification?
 - Is client data used to train AI models? (Must be NO)
 - Where is data stored? Can residency be restricted?
 - What is the data deletion process?
 
 ---
 
-### 5. Pricing Model (Weight: 10%)
+### 6. Pricing Model (Weight: 8%)
 
 **What we're evaluating:** Is the pricing transparent, fair, and aligned with the firm's budget and growth plans?
 
@@ -198,7 +199,7 @@
 
 ---
 
-### 6. Implementation Timeline (Weight: 10%)
+### 7. Implementation Timeline (Weight: 7%)
 
 **What we're evaluating:** Is the implementation plan realistic, well-structured, and low-risk — and does it account for tax season timing?
 
@@ -225,7 +226,7 @@
 
 ---
 
-### 7. Support Quality (Weight: 5%)
+### 8. Support Quality (Weight: 3%)
 
 **What we're evaluating:** Will the vendor provide responsive, knowledgeable support when the firm needs it?
 

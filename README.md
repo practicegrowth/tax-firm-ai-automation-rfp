@@ -43,6 +43,7 @@
 
 | Date | Update |
 |------|--------|
+| August 2026 | **Major update:** Added TCPA compliance section (critical for AI voice/SMS), added llms.txt and llms-full.txt for AI discoverability, fixed all UTM parameters, corrected evaluation scorecard section numbering and weights, updated AI capability checklist rating scale to match 122-item total. |
 | August 2026 | Initial release. Comprehensive RFP framework for tax practices evaluating AI automation vendors. Includes Circular 230 compliance requirements, EA/CPA credential positioning, distress-driven intake automation, and tax-practice-specific AI deployment considerations. |
 
 ---
@@ -59,10 +60,11 @@ This repository provides a complete, neutral RFP framework for tax practices eva
 
 | Document | Purpose |
 |----------|---------|
-| [RFP Template](rfp-template.md) | 11-section RFP covering scope, technical requirements, compliance (including Circular 230), evaluation criteria, and submission instructions |
-| [Evaluation Scorecard](evaluation-scorecard.md) | Weighted scoring matrix (7 criteria) with 1–5 rubric and evaluation questions — includes tax-practice-specific domain expertise criteria |
-| [AI Capability Checklist](ai-capability-checklist.md) | Technical checklist for evaluating AI vendor capabilities — model transparency, accuracy, hallucination controls, voice quality, CRM integration, plus Circular 230 compliance checks |
+| [RFP Template](rfp-template.md) | 11-section RFP covering scope, technical requirements, compliance (including Circular 230 and TCPA), evaluation criteria, and submission instructions |
+| [Evaluation Scorecard](evaluation-scorecard.md) | Weighted scoring matrix (8 criteria) with 1–5 rubric and evaluation questions — includes tax-practice-specific domain expertise criteria |
+| [AI Capability Checklist](ai-capability-checklist.md) | Technical checklist for evaluating AI vendor capabilities — 14 sections, 122 items covering model transparency, accuracy, hallucination controls, voice quality, CRM integration, Circular 230, YMYL, and TCPA compliance |
 | [Implementation Roadmap](implementation-roadmap.md) | 4-phase adoption plan from foundation to transformation with timelines, success metrics, and tax-season timing considerations |
+| [Compliance Checklist](compliance-checklist.md) | Quick reference for Circular 230, TCPA, YMYL, credential, and seasonality compliance requirements |
 
 ---
 
@@ -97,7 +99,7 @@ This repository provides a complete, neutral RFP framework for tax practices eva
 → Don't launch anything new right now. Use this RFP to plan your off-season (May–Dec) AI deployment. Focus on surviving busy season. Come back in May.
 
 **Scenario 4: You've been burned by a bad AI vendor.**
-→ Read [Common Mistakes](#common-mistakes) and [Common Objections & Reality Checks](#common-objections--reality-checks). Use the [Contract Checklist](#contract-checklist) to avoid repeating mistakes. Pay special attention to Circular 230 compliance and credential handling requirements.
+→ Read [Common Mistakes](#common-mistakes) and [Common Objections & Reality Checks](#common-objections--reality-checks). Use the [Contract Checklist](#contract-checklist) to avoid repeating mistakes. Pay special attention to Circular 230 compliance, TCPA compliance, and credential handling requirements. Review the [Compliance Checklist](compliance-checklist.md) for detailed requirements.
 
 **Scenario 5: You need AI for distress-driven client intake.**
 → Read [Why Tax Practices Are Different](#why-tax-practices-are-different) — specifically the distress-driven buyer psychology section. Customize the RFP Template's Section 3.3 (Automated Client Intake) to prioritize urgency triage, after-hours availability, and mobile-first design.
@@ -107,6 +109,24 @@ This repository provides a complete, neutral RFP framework for tax practices eva
 ## Why Tax Practices Are Different
 
 Tax practices are not generic professional services. If your AI vendor treats you like a law firm or accounting practice, they don't understand your world. Here's what makes tax practices unique:
+
+### ⚠️ WARNING: Most AI Vendors Will Fail Tax Practices
+
+Before we explain why tax practices are different, let's be direct about what happens when you hire a generic AI vendor:
+
+**They don't know Circular 230.** Their chatbot will provide tax advice without practitioner review. You'll get a Circular 230 violation. Your EA/CPA license is at risk.
+
+**They don't understand credentials.** Their website says "CPA" when they mean "EA." Their AI scripts don't distinguish between credential types. They don't know that only EAs and CPAs can represent clients before the IRS, and tax attorneys have attorney-client privilege.
+
+**They don't know TCPA.** Their AI voice agents make calls without prior consent. Their SMS automation doesn't check the Do Not Call registry. One violation costs $500–$1,500. Ten violations cost more than the AI implementation.
+
+**They don't understand distress.** Their intake flow has 15 fields. Their AI doesn't detect urgency. They treat a prospect with an IRS levy notice the same as someone asking about tax planning. You lose distressed clients who need immediate help.
+
+**They don't know seasonality.** They want to "go live in 30 days" — and it's February. They launch during busy season. Your staff is overwhelmed. The AI breaks something. You blame the vendor. The vendor blames your staff. Nothing works.
+
+**They don't know YMYL.** Their AI generates 100 blog posts in 30 days. None have author credentials. None cite IRS publications. Google suppresses them. You wasted money on spam.
+
+**If your AI vendor doesn't know at least three of these five areas, don't hire them.** This RFP is designed to surface vendors who understand tax practices and disqualify vendors who don't.
 
 ### 1. Circular 230 Compliance
 
@@ -118,6 +138,8 @@ Tax practices are not generic professional services. If your AI vendor treats yo
 - **Testimonials collected by AI must comply with solicitation restrictions.** You can't have AI cold-call past clients asking for reviews.
 
 **Red flag:** If your AI vendor doesn't know what Circular 230 is, don't hire them.
+
+**Red flag:** If your AI vendor can't provide written TCPA certification and indemnification, don't hire them. One TCPA violation costs $500–$1,500. Ten violations cost more than the AI implementation.
 
 ### 2. Credential Distinctions Matter
 
@@ -383,13 +405,13 @@ Tax advice is YMYL content. Google enforces stricter E-E-A-T (Experience, Expert
 
 3. **Ignoring Circular 230 compliance.** Your AI chatbot makes tax representations. You get a Circular 230 violation. **Fix:** Require vendors to demonstrate Circular 230 awareness. Build escalation paths.
 
-4. **Not involving staff in AI design.** Staff knows the workflows. If you don't involve them, they'll resist. **Fix:** Include staff in vendor selection, testing, and workflow design.
+4. **Ignoring TCPA compliance.** Your AI voice agents make calls without prior consent. Your SMS automation doesn't check the Do Not Call registry. One violation costs $500–$1,500. Ten violations cost more than the AI implementation. **Fix:** Require written TCPA certification and indemnification from vendors. Implement consent management workflow.
 
-5. **Choosing the cheapest vendor.** Cheap AI that doesn't work costs more than expensive AI that does. **Fix:** Evaluate total cost of ownership, not just upfront price.
+5. **Not involving staff in AI design.** Staff knows the workflows. If you don't involve them, they'll resist. **Fix:** Include staff in vendor selection, testing, and workflow design.
 
-6. **Boiling the ocean.** Trying to automate everything at once. **Fix:** Start small (Phase 1). Prove value. Expand gradually.
+6. **Choosing the cheapest vendor.** Cheap AI that doesn't work costs more than expensive AI that does. **Fix:** Evaluate total cost of ownership, not just upfront price.
 
-7. **No human oversight.** Believing AI should run autonomously from day one. **Fix:** Always maintain human oversight, especially in early phases. AI makes mistakes. Catch them before they reach clients.
+7. **Boiling the ocean.** Trying to automate everything at once. **Fix:** Start small (Phase 1). Prove value. Expand gradually.
 
 8. **Ignoring credential display.** Your AI chatbot doesn't show EA/CPA/JD credentials. Prospects don't trust you. **Fix:** Credentials above the fold. On chatbot, voice agent, website. Always.
 
@@ -433,6 +455,7 @@ Tax advice is YMYL content. Google enforces stricter E-E-A-T (Experience, Expert
 **Before you sign, verify these terms:**
 
 - [ ] **Circular 230 compliance:** Vendor understands and will configure AI to comply with IRS Circular 230 restrictions.
+- [ ] **TCPA compliance:** Vendor provides written TCPA certification and indemnification. System obtains prior express written consent, checks DNC registry, enforces call time restrictions (8 AM–9 PM), and requires AI voice agents to disclose they are automated.
 - [ ] **Credential handling:** AI will display credentials accurately (EA, CPA, JD) and not misrepresent scope.
 - [ ] **Data ownership:** You own all data. Vendor cannot use your client data to train models.
 - [ ] **Data processing agreement:** Vendor provides DPA addressing training practices, data segregation, sub-processors.
@@ -447,6 +470,9 @@ Tax advice is YMYL content. Google enforces stricter E-E-A-T (Experience, Expert
 - [ ] **Data portability:** You can export all data if you leave.
 - [ ] **Support SLA:** Response times by severity level. Dedicated account manager.
 - [ ] **Rollback plan:** If implementation fails, you can revert to manual processes.
+- [ ] **TCPA indemnification:** Vendor assumes liability for TCPA violations caused by system defects.
+- [ ] **Consent management:** System maintains complete audit trail of all consent records and call/SMS logs.
+- [ ] **YMYL compliance:** All AI-generated content includes author bios with credentials, citations to authoritative sources, and professional review workflow.
 
 ---
 

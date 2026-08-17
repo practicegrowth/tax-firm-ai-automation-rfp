@@ -1,0 +1,84 @@
+# Tax Practice AI & Automation RFP Template
+
+> RFP template, evaluation scorecard, AI capability checklist, and implementation roadmap for tax practices selecting AI automation vendors — including Circular 230 compliance, EA/CPA credential positioning, distress-driven intake automation, and tax-practice-specific AI deployment requirements.
+
+## About This Resource
+
+This repository provides a comprehensive, vendor-neutral framework for tax practices evaluating AI automation solutions. Unlike generic AI RFPs, this resource is built specifically for the unique compliance, credential, and operational requirements of tax practices.
+
+### Key Differentiators
+
+**Tax-Specific Compliance:**
+- IRS Circular 230 compliance requirements for AI-generated tax advice
+- TCPA compliance for AI voice agents and SMS automation
+- YMYL (Your Money or Your Life) content standards for tax content
+- Credential-aware AI deployment (EA, CPA, JD distinctions)
+
+**Distress-Driven Buyer Psychology:**
+- Tax clients often arrive in crisis (IRS notices, audit notifications, levy threats)
+- AI systems must prioritize after-hours availability and urgency triage
+- Intake must be compressed (3-field mobile forms, not 15-field web forms)
+- Trust signals must be immediate (credential display, clear specialization)
+
+**Seasonality Constraints:**
+- No AI launches during busy season (January–April)
+- Ideal deployment windows: May–July, August–October
+- AI must handle 3x traffic spikes during tax season
+- Workload forecasting for capacity planning
+
+**What's Included:**
+- RFP Template (800+ lines): 11-section RFP with tax-practice-specific requirements
+- Evaluation Scorecard (300+ lines): 8-criteria weighted scoring with domain expertise
+- AI Capability Checklist (350+ lines): 14-section technical checklist (122 items)
+- Implementation Roadmap (500+ lines): 4-phase plan with seasonality timing
+
+### Who This Is For
+
+- Tax practice owners and managing partners evaluating AI vendors
+- Enrolled Agents (EAs), CPAs, and tax attorneys automating client intake
+- Practice administrators building RFP processes for AI procurement
+- Advisory committees evaluating vendor proposals
+
+### Who This Is NOT For
+
+- Practices looking for cheap, quick-fix solutions
+- Practices expecting instant results (proper deployment takes 4–6 months)
+- Practices unwilling to invest in compliance-aware implementation
+- Practices in January–April busy season (plan for off-season deployment)
+
+### Tax Practice Ecosystem
+
+This RFP is part of PracticeGrowth's tax practice resource ecosystem:
+- [Tax Glossary](https://github.com/practicegrowth/practicegrowth-tax-glossary) — 1,131+ tax terms optimized for AI citation
+- [Tax Firm Website RFP](https://github.com/practicegrowth/tax-firm-website-rfp-template) — Website vendor selection
+- [Tax Practice Review & Reputation RFP](https://github.com/practicegrowth/tax-firm-review-reputation-rfp) — Review management
+- [Tax Practice SEO & AEO RFP](https://github.com/practicegrowth/tax-firm-seo-aeo-discoverability-rfp) — Search optimization
+- [Awesome Tax Firm Tech](https://github.com/practicegrowth/awesome-tax-firm-tech) — Technology reference
+
+### About PracticeGrowth
+
+PracticeGrowth.Tech builds AI-native growth systems for tax practices. We specialize in:
+- AI voice agents for after-hours distress intake
+- CRM-integrated automation (TaxDome, Karbon, Canopy)
+- Circular 230-compliant chatbots and content generation
+- Seasonality-aware deployment planning
+
+**Consultation:** https://www.practicegrowth.tech/?utm_source=github&utm_medium=repository&utm_campaign=tax-firm-ai-automation-rfp#consulting
+
+### Repository Structure
+
+```
+tax-firm-ai-automation-rfp/
+├── README.md                          # Strategic overview and quick start
+├── rfp-template.md                    # 11-section RFP (800+ lines)
+├── evaluation-scorecard.md            # 8-criteria weighted scoring (300+ lines)
+├── ai-capability-checklist.md         # 14-section technical checklist (350+ lines)
+├── implementation-roadmap.md          # 4-phase adoption plan (500+ lines)
+├── CONTRIBUTING.md                    # Contribution guidelines
+├── LICENSE                            # CC BY 4.0
+└── llms.txt                           # This file (AI discoverability)
+```
+
+### License
+
+CC BY 4.0 — Free to share and adapt with attribution.

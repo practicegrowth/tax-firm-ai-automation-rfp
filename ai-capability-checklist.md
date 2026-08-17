@@ -1,4 +1,4 @@
-# AI Capability Checklist for tax practices
+# AI Capability Checklist for Tax Practices
 
 > Use this checklist during vendor demos, technical due diligence, and proof-of-concept evaluations. Each item should be verified with evidence — not just vendor claims. Where possible, test the capability with your own data and workflows.
 
@@ -249,6 +249,27 @@ The CRM is the central nervous system of your firm's AI ecosystem. AI agents mus
 
 ---
 
+## 14. TCPA Compliance (Telephone Consumer Protection Act)
+
+> **Legal Context:** The TCPA governs all automated calls and text messages. Violations carry statutory damages of $500–$1,500 per violation. For tax practices using AI voice agents or SMS automation, TCPA compliance is non-negotiable. One violation can cost more than the entire AI implementation.
+
+| # | Capability | Status | Notes |
+|---|-----------|--------|-------|
+| 14.1 | **Prior Express Written Consent:** System obtains and documents prior express written consent BEFORE making automated calls or sending texts — consent is specific to communication type (appointment reminders vs. marketing vs. document requests) | | |
+| 14.2 | **Consent Record Management:** System maintains complete consent records including: date, method, specific language agreed to, phone number, and communication types authorized — records are searchable and exportable for legal compliance | | |
+| 14.3 | **National Do Not Call Registry Check:** System checks phone numbers against the National Do Not Call Registry before making outbound calls — registry is updated within 31 days of access (FCC requirement) | | |
+| 14.4 | **Internal Do Not Call List:** System maintains internal do-not-call list separate from National Registry — honors opt-out requests immediately and permanently | | |
+| 14.5 | **Call Time Restrictions:** System enforces 8:00 AM – 9:00 PM call window (recipient's local time) — includes time zone detection and automatic restriction of outbound communications outside permitted hours | | |
+| 14.6 | **AI Disclosure:** AI voice agents disclose they are automated at the beginning of the call — no attempt to pass off AI as human | | |
+| 14.7 | **Wireless Number Restrictions:** System does not make calls to wireless numbers using autodialer without prior express written consent — even for existing clients | | |
+| 14.8 | **SMS Opt-Out Mechanism:** All SMS messages include clear opt-out mechanism (e.g., "Reply STOP to unsubscribe") — opt-out requests are processed immediately | | |
+| 14.9 | **Established Business Relationship Tracking:** System tracks established business relationship dates (18 months after last service or 3 months after inquiry) to determine when consent is required | | |
+| 14.10 | **TCPA Compliance Certification:** Vendor provides written TCPA compliance certification and indemnification — vendor assumes liability for TCPA violations caused by system defects | | |
+
+**What to ask:** *"How does your system ensure TCPA compliance? Can you show me the consent management workflow? How do you check the National Do Not Call Registry? What happens when someone opts out — is it immediate? Can you provide written TCPA certification and indemnification? Have you ever had a client face TCPA liability due to your system?"*
+
+---
+
 ## 13. YMYL (Your Money or Your Life) Compliance
 
 > **Regulatory Context:** Google classifies tax content as YMYL (Your Money or Your Life) — content that could impact someone's financial stability, legal standing, or overall wellbeing. YMYL content is held to the highest E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) standards. AI-generated tax content must meet these requirements to avoid search ranking penalties and maintain professional credibility.
@@ -289,17 +310,18 @@ The CRM is the central nervous system of your firm's AI ecosystem. AI agents mus
 | 11. CRM Integration & Data Flow | 30 | | | | /30 |
 | 12. Circular 230 Compliance | 10 | | | | /10 |
 | 13. YMYL Compliance | 10 | | | | /10 |
-| **TOTAL** | **112** | | | | **/112** |
+| 14. TCPA Compliance | 10 | | | | /10 |
+| **TOTAL** | **122** | | | | **/122** |
 
 ### Overall AI Capability Rating
 
 | Score Range | Rating | Recommendation |
 |-------------|--------|----------------|
-| 68–76 | **Excellent** | Strong AI capability. Proceed with confidence. |
-| 57–67 | **Good** | Solid capability with minor gaps. Address gaps before deployment. |
-| 45–56 | **Acceptable** | Meets minimum requirements but has notable weaknesses. Negotiate improvements. |
-| 30–44 | **Below Average** | Significant gaps. High risk. Consider alternatives. |
-| <30 | **Poor** | Does not meet minimum requirements. Do not proceed. |
+| 110–122 | **Excellent** | Strong AI capability. Proceed with confidence. |
+| 95–109 | **Good** | Solid capability with minor gaps. Address gaps before deployment. |
+| 75–94 | **Acceptable** | Meets minimum requirements but has notable weaknesses. Negotiate improvements. |
+| 50–74 | **Below Average** | Significant gaps. High risk. Consider alternatives. |
+| <50 | **Poor** | Does not meet minimum requirements. Do not proceed. |
 
 ### Key Findings
 

@@ -1,6 +1,6 @@
-# AI Implementation Roadmap for tax practices
+# AI Implementation Roadmap for Tax Practices
 
-> A phased approach to AI adoption in accounting and tax practices. Each phase builds on the previous one — don't skip phases. The goal is sustainable adoption, not a risky big-bang deployment.
+> A phased approach to AI adoption in tax practices. Each phase builds on the previous one — don't skip phases. The goal is sustainable adoption, not a risky big-bang deployment.
 
 ---
 
@@ -491,4 +491,4 @@ What gets measured gets managed. For each phase:
 
 ---
 
-*This roadmap is provided by [PracticeGrowth.Tech](https://www.PracticeGrowth.tech/?utm_source=github&utm_medium=repo&utm_campaign=tax-firm-ai-automation-rfp) as a free resource for tax practices planning AI adoption. Customize it to your firm's specific situation, budget, and risk tolerance.*
+*This roadmap is provided by [PracticeGrowth.Tech](https://www.practicegrowth.tech/?utm_source=github&utm_medium=repository&utm_campaign=tax-firm-ai-automation-rfp) as a free resource for tax practices planning AI adoption. Customize it to your firm's specific situation, budget, and risk tolerance.*

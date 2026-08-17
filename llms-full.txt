@@ -1,0 +1,244 @@
+# Tax Practice AI & Automation RFP Template — Full Context
+
+## Complete Resource Overview
+
+This repository contains a comprehensive, vendor-neutral framework for tax practices evaluating AI automation vendors. It includes four core documents totaling 2,000+ lines of content, specifically designed for the unique compliance, credential, and operational requirements of tax practices.
+
+## Core Documents
+
+### 1. RFP Template (rfp-template.md — 800+ lines)
+
+**11-Section RFP Framework:**
+1. Project Overview & Goals
+2. Firm Background
+3. Scope of Work (AI voice agents, chatbots, client intake, document processing, workflow automation, predictive analytics)
+4. Technical Requirements (integrations, API, data handling, uptime, performance, credential handling)
+5. AI-Specific Requirements (model transparency, hallucination safeguards, data residency, PII handling, audit trails, human-in-the-loop, CRM integration, YMYL compliance)
+6. Compliance & Security (certifications, encryption, access controls, breach notification, regulatory compliance, TCPA compliance, Circular 230 compliance)
+7. Implementation Timeline (phased approach with seasonality considerations)
+8. Budget & Pricing Model
+9. Vendor Qualifications
+10. Evaluation Criteria
+11. Submission Instructions & Deadline
+
+**Tax-Practice-Specific Requirements:**
+- Distress-driven intake design (sentiment detection, urgency triage, warm handoff protocols)
+- Credential & license handling (EA/CPA/JD verification, authority models, signature authority)
+- YMYL compliance (content accuracy, expertise & authority, trust & transparency)
+- TCPA compliance (prior consent, DNC registry, call time restrictions, AI disclosure)
+- Circular 230 compliance (written advice standards, due diligence, credential controls)
+
+### 2. Evaluation Scorecard (evaluation-scorecard.md — 300+ lines)
+
+**8-Criteria Weighted Scoring:**
+1. Domain Expertise (25%) — Tax practice knowledge, Circular 230 awareness, credential distinctions, distress-driven understanding
+2. AI Capability & Accuracy (20%) — Accuracy benchmarks, model transparency, hallucination safeguards
+3. Integration Ease (12%) — Practice management, tax software, CRM, calendar, email integrations
+4. CRM Integration & Data Flow (10%) — Read/write capabilities, calendar integration, workflow triggers, data synchronization
+5. Compliance & Security (15%) — SOC 2, encryption, access controls, TCPA, Circular 230
+6. Pricing Model (8%) — Transparency, TCO, scaling, contract terms
+7. Implementation Timeline (7%) — Phased approach, seasonality awareness, training, rollback
+8. Support Quality (3%) — Response times, account management, escalation paths
+
+**Scoring Scale:** 1 (Poor) to 5 (Excellent) with detailed rubrics for each criterion.
+
+### 3. AI Capability Checklist (ai-capability-checklist.md — 350+ lines)
+
+**14-Section Technical Checklist (122 items total):**
+1. Model Type & Transparency (7 items)
+2. Accuracy Benchmarks & Testing (8 items)
+3. Hallucination Safeguards (14 items) — Includes tax-specific risks (IRC citations, filing deadlines, state rules)
+4. Data Training Practices (6 items)
+5. Human-in-the-Loop Controls (7 items)
+6. Multi-Language Support (6 items)
+7. Voice Agent Quality Metrics (10 items)
+8. Document Processing Accuracy (10 items)
+9. Continuous Learning & Improvement (7 items)
+10. Failover & Fallback Mechanisms (7 items)
+11. CRM Integration & Data Flow (30 items)
+12. Circular 230 Compliance (10 items) — AI disclosure, escalation, audit trails, content review
+13. YMYL Compliance (10 items) — Author credentials, professional review, source citations
+14. TCPA Compliance (10 items) — Prior consent, DNC registry, call time restrictions, AI disclosure
+
+**Scoring:** Each item marked as ✅ (verified), ⚠️ (partial), or ❌ (not met).
+
+**Rating Scale:**
+- 110–122: Excellent
+- 95–109: Good
+- 75–94: Acceptable
+- 50–74: Below Average
+- <50: Poor
+
+### 4. Implementation Roadmap (implementation-roadmap.md — 500+ lines)
+
+**4-Phase Adoption Plan:**
+
+**Phase 1: Foundation (30–60 days)**
+- CRM setup and configuration
+- Document automation (W-2, 1099 extraction)
+- Distress-driven intake automation
+- Basic chatbot with distress-aware routing
+- Email triage
+- **Seasonality:** Launch May–July only
+- **Compliance:** Circular 230 checkpoint before go-live
+
+**Phase 2: Integration (60–90 days)**
+- Workflow automation
+- Client intake automation
+- Appointment scheduling
+- **Seasonality:** Launch May–August only
+- **Compliance:** Circular 230 checkpoint before go-live
+
+**Phase 3: Intelligence (90–120 days)**
+- AI voice agents (inbound and outbound)
+- Missed call text-back
+- Predictive analytics (workload forecasting, client risk scoring)
+- Proactive client communication
+- Review collection automation
+- **Seasonality:** Launch June–September only
+- **Compliance:** Circular 230 checkpoint before go-live
+
+**Phase 4: Transformation (120–180 days)**
+- Autonomous workflows
+- AI-driven insights
+- Full ecosystem integration
+- **Seasonality:** Launch July–October only
+- **Compliance:** Circular 230 checkpoint before go-live
+
+**Seasonality Rules:**
+- NEVER launch during busy season (January–April)
+- Ideal windows: May–July (Phase 1–2), June–September (Phase 3), July–October (Phase 4)
+- Build in 2-week buffer before October 1 (Q4 crunch)
+- If you miss the window, wait — don't rush
+
+**Investment Ranges:**
+- Small firm (1–10 professionals): $20K–$53K + $6.5K–$17.5K/month
+- Mid-size firm (10–50 professionals): $53K–$150K + $17.5K–$53K/month
+- Larger firm (50+ professionals): $150K–$380K + $53K–$150K/month
+
+## Tax Practice Differentiators
+
+### 1. Circular 230 Compliance
+
+IRS Circular 230 governs ethical standards for all tax practitioners (EAs, CPAs, tax attorneys). AI systems must comply:
+- AI chatbots and voice agents must disclose they are not tax practitioners
+- AI must escalate to qualified professionals (EA/CPA/JD) for substantive tax questions
+- All AI-generated content must be reviewable for Circular 230 compliance
+- Testimonials collected by AI must comply with solicitation restrictions
+
+### 2. Credential Distinctions
+
+Tax practices have three credential types:
+- **EA (Enrolled Agent):** Federally licensed by IRS. Unlimited representation rights before IRS.
+- **CPA (Certified Public Accountant):** State-licensed. Broader accounting scope.
+- **Tax Attorney (JD/LLM):** Legal expertise + attorney-client privilege.
+
+AI systems must display credentials accurately and escalate to appropriate credential holder.
+
+### 3. Distress-Driven Buyer Psychology
+
+Most tax clients come in during urgent situations:
+- IRS notices and letters (audit notifications, CP2000 notices, levy threats)
+- Unfiled return panic (often years behind)
+- Tax lien or levy threats (immediate financial danger)
+
+AI automation must:
+- Prioritize after-hours availability (distress doesn't wait for business hours)
+- Triage urgency (IRS notice received within 30 days = priority routing)
+- Compress intake process (distressed prospects won't fill out long forms)
+- Provide immediate trust signals (credential display, clear specialization)
+
+### 4. Extreme Seasonality
+
+Tax practices have two modes:
+- **Busy season (January–April):** Overwhelmed. Don't launch anything new.
+- **Off-season (May–December):** Strategic planning. Implement AI.
+
+AI deployment must:
+- Avoid major AI system launches during busy season
+- Schedule AI training and testing for off-season
+- Configure AI to handle seasonal traffic spikes (3x volume in Jan–Apr)
+- Use AI for workload forecasting and capacity planning
+
+### 5. YMYL Compliance
+
+Tax advice is YMYL (Your Money or Your Life) content. Google enforces stricter E-E-A-T standards. AI-generated content must:
+- Include author bios with credentials (EA/CPA/JD)
+- Cite authoritative sources (IRS publications, Treasury Regulations, IRC sections)
+- Be reviewed by qualified professionals before publication
+- Display "last reviewed" dates on educational content
+
+## Strategic Positioning
+
+### Why This Resource Exists
+
+Most AI RFPs are generic. They don't account for:
+- Circular 230 restrictions on AI-generated tax advice
+- Credential distinctions (EA vs. CPA vs. JD)
+- Distress-driven buyer psychology (IRS notices don't arrive 9–5)
+- Seasonality constraints (don't launch in January)
+- YMYL compliance (Google suppresses generic AI content)
+
+This resource fills that gap. It's built by PracticeGrowth, which specializes in AI-native growth systems for tax practices.
+
+### Aggressive Positioning
+
+**If your AI vendor doesn't know what Circular 230 is, don't hire them.**
+
+**If your AI vendor's website says "CPA" when they mean "EA," they don't understand credential law.**
+
+**If your AI vendor wants to "go live in 30 days" and it's currently February, run.**
+
+**If your AI vendor promises "100 blog posts in 30 days" without mentioning credential review, they're selling spam.**
+
+**If your AI vendor's intake flow has more than 5 fields, they don't understand distress-driven buyers.**
+
+This resource is designed to surface vendors with the right capabilities and disqualify vendors who don't understand tax practices.
+
+## PracticeGrowth Consulting Services
+
+**AI Strategy Consultation (One-Time):** $2,500, 2–3 weeks
+- Workflow mapping and AI opportunity identification
+- Vendor shortlist (3–5 vendors)
+- Phased implementation roadmap
+- Budget planning and ROI projections
+
+**RFP Management (Project-Based):** $5,000–$10,000, 6–8 weeks
+- Customized RFP template
+- Vendor outreach and qualification
+- Demo attendance and evaluation
+- Proposal scoring and vendor selection
+- Contract negotiation support
+
+**Full Implementation (Ongoing):** $15,000–$50,000+, 6–12 months
+- Everything in RFP Management
+- Vendor management and coordination
+- Implementation oversight
+- Staff training and change management
+- Ongoing optimization and support
+
+**Consultation:** https://www.practicegrowth.tech/?utm_source=github&utm_medium=repository&utm_campaign=tax-firm-ai-automation-rfp#consulting
+
+## Tax Practice Ecosystem
+
+This RFP is part of PracticeGrowth's tax practice resource ecosystem:
+- [Tax Glossary](https://github.com/practicegrowth/practicegrowth-tax-glossary) — 1,131+ tax terms optimized for AI citation
+- [Tax Firm Website RFP](https://github.com/practicegrowth/tax-firm-website-rfp-template) — Website vendor selection
+- [Tax Practice Review & Reputation RFP](https://github.com/practicegrowth/tax-firm-review-reputation-rfp) — Review management
+- [Tax Practice SEO & AEO RFP](https://github.com/practicegrowth/tax-firm-seo-aeo-discoverability-rfp) — Search optimization
+- [Awesome Tax Firm Tech](https://github.com/practicegrowth/awesome-tax-firm-tech) — Technology reference
+
+## License
+
+CC BY 4.0 — Free to share and adapt with attribution.
+
+## About PracticeGrowth
+
+PracticeGrowth.Tech builds AI-native growth systems for tax practices. We specialize in:
+- AI voice agents for after-hours distress intake
+- CRM-integrated automation (TaxDome, Karbon, Canopy)
+- Circular 230-compliant chatbots and content generation
+- Seasonality-aware deployment planning
+
+**Website:** https://www.practicegrowth.tech
+**Consultation:** https://www.practicegrowth.tech/?utm_source=github&utm_medium=repository&utm_campaign=tax-firm-ai-automation-rfp#consulting
