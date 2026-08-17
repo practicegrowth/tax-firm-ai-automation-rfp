@@ -34,8 +34,9 @@
 20. [PracticeGrowth Consulting Services](#practicegrowth-consulting-services)
 21. [Why PracticeGrowth?](#why-practicegrowth)
 22. [Tax Practice Ecosystem](#tax-practice-ecosystem)
-23. [Glossary](#glossary)
-24. [License](#license)
+23. [Compliance Checklist](#compliance-checklist)
+24. [Glossary](#glossary)
+25. [License](#license)
 
 ---
 
@@ -199,6 +200,27 @@ Tax advice is YMYL content. Google enforces stricter E-E-A-T (Experience, Expert
 - **Display "last reviewed" dates on educational content.** Tax law changes. Show when content was last verified.
 
 **Red flag:** If your AI vendor promises "100 blog posts in 30 days" without mentioning credential review, they're selling spam.
+
+### 6. TCPA Compliance (Telephone Consumer Protection Act)
+
+AI voice agents and SMS automation trigger TCPA requirements. Violations carry statutory damages of **$500–$1,500 per call or text**. One bad vendor can bankrupt a small practice.
+
+**What AI systems must do:**
+- **Obtain prior express written consent** before making any automated call or sending any text.
+- **Check the National Do Not Call Registry** before outbound calls (updated within 31 days).
+- **Enforce call time restrictions** — 8 AM to 9 PM in the recipient's time zone.
+- **Disclose AI identity** — voice agents must state they are automated at the beginning of every call.
+- **Provide opt-out mechanisms** — SMS must include "Reply STOP to unsubscribe."
+- **Maintain complete audit trails** — consent records, call logs, SMS logs, all searchable and exportable.
+
+**Tax-practice-specific considerations:**
+- IRS notice reminders and deadline alerts may qualify for the "emergency purposes" exception (consult legal counsel).
+- Document collection reminders require separate consent from marketing messages.
+- International clients trigger additional requirements (Canada CASL, EU GDPR).
+
+**Red flag:** If your AI vendor can't provide written TCPA certification and indemnification, don't hire them. One violation costs more than the entire AI implementation.
+
+**For the complete compliance deep-dive — including emergency response procedures, phase-by-phase checklists, and ongoing monitoring requirements — see the [Compliance Checklist](compliance-checklist.md).**
 
 ---
 
@@ -597,7 +619,7 @@ Tax advice is YMYL content. Google enforces stricter E-E-A-T (Experience, Expert
 
 ## Tax Practice Ecosystem
 
-**This RFP template is part of the PracticeGrowth open-resource ecosystem for tax practices:**
+This RFP template is part of the PracticeGrowth open-resource ecosystem for tax practices:
 
 - [**PracticeGrowth Tax Glossary**](https://github.com/practicegrowth/practicegrowth-tax-glossary) — 1,131+ tax terms from 18 authoritative sources, with comparison pages and structured data optimized for AI citation
 - [**Tax Firm Website RFP Template**](https://github.com/practicegrowth/tax-firm-website-rfp-template) — RFP template and evaluation scorecard for tax practices selecting a website and AI development agency
@@ -606,6 +628,21 @@ Tax advice is YMYL content. Google enforces stricter E-E-A-T (Experience, Expert
 - [**Awesome Tax Firm Tech**](https://github.com/practicegrowth/awesome-tax-firm-tech) — Curated reference for technology used by modern tax practices
 
 **Looking for the CPA firm version?** This repo was adapted from the [CPA Firm AI & Automation RFP](https://github.com/practicegrowth/cpa-firm-ai-automation-rfp) for the tax practice ICP. If you serve a broader accounting audience (not just tax), the CPA version may be more relevant.
+
+---
+
+## Compliance Checklist
+
+For a quick-reference compliance guide covering all five tax-practice-specific areas (Circular 230, TCPA, YMYL, credentials, seasonality), see the dedicated [**Compliance Checklist**](compliance-checklist.md).
+
+This 400+ line document includes:
+- **Emergency response procedures** for compliance violations
+- **Phase-by-phase implementation checklists** with go-live verification
+- **Ongoing monitoring requirements** (monthly, quarterly, annual)
+- **Failure scenarios** with consequences and prevention strategies
+- **Vendor evaluation questions** for each compliance area
+
+**Use it during:** Vendor demos, contract review, implementation planning, and ongoing compliance audits.
 
 ---
 
@@ -633,6 +670,7 @@ Tax advice is YMYL content. Google enforces stricter E-E-A-T (Experience, Expert
 | **SOC 2 Type II** | Security certification demonstrating a vendor has strong controls over data protection, availability, and confidentiality. |
 | **Tax Attorney (JD/LLM)** | Lawyer specializing in tax law. Handles complex tax controversy, litigation, and legal structuring. Has attorney-client privilege. |
 | **Tax Season / Busy Season** | January–April period when tax practices are overwhelmed with filing-season work. Don't launch AI during this time. |
+| **TCPA (Telephone Consumer Protection Act)** | Federal law governing automated calls and text messages. Requires prior express written consent, DNC registry checks, and call time restrictions (8 AM–9 PM). Violations cost $500–$1,500 each. |
 | **YMYL (Your Money or Your Life)** | Google's classification for content that could impact someone's financial stability or life. Tax advice is YMYL. Google enforces stricter E-E-A-T standards. |
 
 ---
